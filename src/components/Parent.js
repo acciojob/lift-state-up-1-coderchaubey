@@ -15,7 +15,7 @@ const Child = ({setShowModal }) => {
 };
 
 // Parent component
-const Parent = () => {
+const parent = () => {
   const [showModal, setShowModal] = useState(false);
 
   console.log(showModal);
@@ -27,4 +27,4 @@ const Parent = () => {
   );
 };
 
-export default Parent;
+export default parent;
