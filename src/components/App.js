@@ -1,11 +1,11 @@
 import React from "react";
 import './../styles/App.css';
-import ParentComponent from "./ParentComponent";
+import Parent from "./Parent";
 
 const App = () => {
   return (
     <div>
-      <ParentComponent />
+      <Parent />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ChildComponent from './ChildComponent'
 
-function ParentComponent() {
+function Parent() {
     const [showModal, setShowModal] = useState(false)
   return (
     <div className='parent'>
@@ -11,4 +11,4 @@ function ParentComponent() {
   )
 }
 
-export default ParentComponent
+export default Parent
